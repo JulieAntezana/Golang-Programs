@@ -2,26 +2,6 @@
 
 Repository of Programs in the Go programming language
 
-Modules Code Projects
-Getting Started Say the Numbers  
-Functions Age on Mars
-Pointers & Structs Ticking Timer
-Array, Range, Map Match Results
-Concurrency Downloader
-
-This repository contains small programs and a tutorial that I wrote while learning the Kotlin language. I learned Kotlin by completing a course on sololearn.com. For this course, I wrote four code projects. In addition, I worked on a game tutorial:
-
-Water Consumption - designed to demonstrate mastery of variables, operators, comments, and input in Kotlin
-Parking Fee - designed to demonstrate mastery of conditional statements.
-Shipping Calculator - designed to demonstrate mastery of programming with functions.
-Music Player - designed to demonstrate mastery of programming with classes.
-
-My purpose for writing this software is to further my knowledge of the Golang programming language.
-
-I have created a video to demonstrate my Go learning journey. I show the work I did on sololearn.com.
-
-Module 1 Golang Programs Video
-
 # Overview
 
 This repository contains small programs that I wrote while learning the Golang, or Go language. I learned Go by completing a course on sololearn.com. For this course, I wrote several code projects.
@@ -40,28 +20,26 @@ My purpose for writing this software is to further my knowledge of the Golang pr
 
 I have created a video to demonstrate my Go learning journey. I show the work I did on sololearn.com.
 
-Module 1 Golang Programs Video
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
+Module 4 Golang Programs Video
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+The tools that I used to develop the software were the code playground at sololearn.com, VS Code, and GitHub.
 
-{Describe the programming language that you used and any libraries.}
+The programming language that I used was Go. The libraries used were TBD.}
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Sololearn](http://www.sololearn.com)
+- [The Go Playground](https://go.dev/play/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+Things that I need to fix, improve, and add in the future:
 
 - Item 1
 - Item 2
