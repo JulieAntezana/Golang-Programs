@@ -14,7 +14,7 @@ Code Project Descriptions:
 - Age on Mars - Demonstrates mastery of writing functions.
 - Pointers & Structs Ticking Timer - Demonstrates mastery of using pointers and structs.
 - Match Results - Demonstrates mastery of using Array, Range, Map in programming.
-Concurrency Downloader - Demonstrates mastery of using concurrency.
+- Concurrency Downloader - Demonstrates mastery of using concurrency.
 
 My purpose for writing this software is to further my knowledge of the Golang programming language.
 
