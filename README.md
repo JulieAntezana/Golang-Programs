@@ -7,13 +7,13 @@ Repository of Programs in the Go programming language
 This repository contains small programs that I wrote while learning the Golang, or Go language. I learned Go by completing a course on sololearn.com. For this course, I wrote several code projects.
 
 Code Project Descriptions:
-Debug and Fix - Designed to demonstrate mastery of packages, imports and comments.
-Measure Yourself - Demonstrates mastery of variables, data types, relational operators, taking input, and if/else statements.
-Exponential Growth - Demonstrates mastery of using the for loop.
-Say the Numbers - Demonstrates mastery of variables, taking input, and using switch case statements.
-Age on Mars - Demonstrates mastery of writing functions.
-Pointers & Structs Ticking Timer - Demonstrates mastery of using pointers and structs.
-Match Results - Demonstrates mastery of using Array, Range, Map in programming.
+- Debug and Fix - Designed to demonstrate mastery of packages, imports and comments.
+- Measure Yourself - Demonstrates mastery of variables, data types, relational operators, taking input, and if/else statements.
+- Exponential Growth - Demonstrates mastery of using the for loop.
+- Say the Numbers - Demonstrates mastery of variables, taking input, and using switch case statements.
+- Age on Mars - Demonstrates mastery of writing functions.
+- Pointers & Structs Ticking Timer - Demonstrates mastery of using pointers and structs.
+- Match Results - Demonstrates mastery of using Array, Range, Map in programming.
 Concurrency Downloader - Demonstrates mastery of using concurrency.
 
 My purpose for writing this software is to further my knowledge of the Golang programming language.
