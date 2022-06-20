@@ -2,7 +2,74 @@ import package
 package main
 import "fmt"
 func main() {
-
+     // Practice Range
+    //  res := 0
+    //  nums := [3]int{2, 4, 6}
+    //  for i, v := range nums {
+    //      if i%2==0 {
+    //          res += v
+    //      }
+    //  }
+    //  fmt.Println(res)
+ 
+     // iterate over characters of a string to 
+     // output unicode code points of the chars.
+     // Use Printf() function to output actual 
+     // characters.
+     // x := "hello"
+     // for _, c := range x {
+     //     //fmt.Println(c)
+     //     fmt.Printf("%c \n", c)
+     //     //fmt.Println(c)
+     // }
+     // loop that iterates over the values of 
+     // the array 'nums' and calculates their sum.
+     // sum := 0
+     // for _, v := range nums {
+     //     sum += v
+     // }
+ 
+     // Range for loop    
+     // a := make([]int, 5)
+     // a[1] = 2
+     // a[2] = 3
+     // for _, v := range a {
+     // fmt.Println(v)
+     // }
+ 
+     // a := make([]int, 5)
+     // a[1] = 2
+     // a[2] = 3
+     // for i, v := range a {
+     //     fmt.Println(i, v)
+     // }
+ 
+     // Practice Slices
+     // make() function
+ 
+     // a := make([]int, 5)
+     // a = append(a, 8)
+     // fmt.Println(a)
+ 
+     // Slices
+     // a := [5]int{1, 2, 4, 6, 8}
+     // var s []int = a[1:3]
+     // fmt.Println(s[1])
+ 
+     // s[0] = 8
+     // fmt.Println(a)
+     
+     
+     // Practice Arrays
+     // arr := [5]int{1, 2, 4, 6, 8}
+     // fmt.Println(arr[2])
+ 
+ 
+     // var a [5]int
+     // a[0] = 8
+     // a[1] = 42
+ 
+     // fmt.Println(a[1])
     
 
     // What is the output of this code? (1) 
