@@ -1,33 +1,34 @@
 // Age on Mars
-"""
-How old would you be on Mars?
-A year on Earth has 365 days, while a year on Mars has 687 days.
 
-The challenge:
-Create a program that takes your age in Earth years as input, and outputs the corresponding age on Mars.
+// How old would you be on Mars?
+// A year on Earth has 365 days, while a year on Mars has 687 days.
 
-The given program takes an integer as input and passes it to the mars_age() function as argument.
-Complete the function to calculate and return the corresponding Mars age.
+// The challenge:
+// Create a program that takes your age in Earth years as input, and outputs the corresponding age on Mars.
 
-Sample Input:
-42
+// The given program takes an integer as input and passes it to the mars_age() function as argument.
+// Complete the function to calculate and return the corresponding Mars age.
 
-Sample Output:
-22
-Note that the output is an integer.
-Calculate the Earth days corresponding to the given age and divide it by the number of days in a year on Mars to get the result.
-"""
+// Sample Input:
+// 42
+
+// Sample Output:
+// 22
+// Note that the output is an integer.
+// Calculate the Earth days corresponding to the given age and divide it by the number of days in a year on Mars to get the result.
 
 package main
+
 import "fmt"
+
 func mars_age(x int) int {
-    return (x * 365) / 687
+	return (x * 365) / 687
 }
 
 func main() {
-    var age int
-    fmt.Scanln(&age)
+	var age int
+	fmt.Scanln(&age)
 
-    mars := mars_age(age)
-    fmt.Println(mars)
+	mars := mars_age(age)
+	fmt.Println(mars)
 }
