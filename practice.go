@@ -1,26 +1,163 @@
 package main
 
 import "fmt"
+//import "time"
 
 // Variadic Functions
 
-func f(v ...int) {
-	res := 20
-	for _, a := range v {
-		res -= a
-	}
-	fmt.Println(res)
-}
+// func f(v ...int) {
+// 	res := 20
+// 	for _, a := range v {
+// 		res -= a
+// 	}
+// 	fmt.Println(res)
+// }
 
-func sum(nums ...int) {
-	total := 0
-	for _, v := range nums {
-		total += v
-	}
-	fmt.Println(total)
-}
+// func sum(nums ...int) {
+// 	total := 0
+// 	for _, v := range nums {
+// 		total += v
+// 	}
+// 	fmt.Println(total)
+// }
+    
 
-func main() {
+/////////////////////////////
+///////////Concurrency///////
+/////////////////////////////
+
+// Goroutines
+// func out(from, to int) {
+//     for i:=from; i<=to; i++ {
+//         time.Sleep(50 * time.Millisecond)
+//         fmt.Println(i)
+//     }
+// }
+
+// Goroutines with channel
+// func out(from, to int, ch chan bool) {
+//     for i:=from; i<=to; i++ {
+//         time.Sleep(50 * time.Millisecond)
+//         fmt.Println(i)
+//     }
+//     ch <- true
+// }
+
+// Sum of Squares Goroutines with Channels
+// func evenSum(from, to int, ch chan int) {
+//     result := 0
+//     for i:=from; i<=to; i++ {
+//       if i%2 == 0 {
+//         result += i
+//       }    
+//     }
+//     ch <- result
+// }
+// func squareSum(from, to int, ch chan int) {
+//     result := 0
+//     for i:=from; i<=to; i++ {
+//         if i%2 == 0 {
+//         result += i*i
+//         }    
+//     }
+//     ch <- result
+// } 
+  
+  
+  // Variadic Functions
+  
+  // func f(v ...int) {
+  //   res := 20
+  //   for _, a := range v {
+  //     res -= a
+  //   }
+  //   fmt.Println(res)
+  // }
+// func sum(nums ...int) {
+//     total := 0
+//     for _, v := range nums {
+//         total += v
+//     }
+//     fmt.Println(total)
+//   }
+  
+// func f(ch chan int) {
+//     ch <- 4
+//   }
+  
+// func main() {
+  
+      
+    // Goroutines
+    // go out(0, 5)
+    // go out(6, 10)
+
+    // time.Sleep(500 * time.Millisecond)
+
+    // Channels
+    // // Make a channel using make() function
+    // ch := make(chan int)
+    // // Send data to the channel
+    // ch <- 8
+    // // Receive data from the channel
+    // value := <- ch
+    // // Without a variable
+    // <- ch
+    // // Note: data flows in direction of arrow
+
+    // Goroutines with channel
+    // ch := make(chan bool)
+
+    // go out(0, 5, ch)
+    // go out(6, 10, ch)
+
+    // <- ch
+
+    // Call Square Sums functions
+    // evenCh := make(chan int)
+    // sqCh := make(chan int)
+
+    // go evenSum(0, 100, evenCh)
+    // go squareSum(0, 100, sqCh)
+
+    // fmt.Println(<-evenCh + <-sqCh)
+
+    // Answer: 174250
+
+    // Select statement is used to wait on 
+    // multiple channel operations
+    // evenCh := make(chan int)
+    // sqCh := make(chan int)
+
+    // go evenSum(0, 100, evenCh)
+    // go squareSum(0, 100, sqCh)
+
+    // for {
+    //     select {
+    //         case x := <- evenCh:
+    //             fmt.Println(x)
+    //             return
+    //         case y := <- sqCh:
+    //             fmt.Println(y)
+    //             return
+    //         default:
+    //             fmt.Println("Nothing available")
+    //             time.Sleep(50 * time.Millisecond)
+    //     }
+    // }
+
+    // ch := make(chan int)
+    // go f(ch)
+    // // select {
+    // //     case <-ch:
+    // //         fmt.Println("a")
+    // //     default:
+    // //         fmt.Println("b")
+    // fmt.Println(<-ch/2)
+
+    // Goroutines
+    // out(0, 5)
+    // out(6, 10)
 
 	// Practice Variadic Functions
 
